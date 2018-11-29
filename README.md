@@ -3,7 +3,7 @@ App本身未调用限制API，但小米MIX 2S Android 9.0系统会调用hiddenap
 
 ### 具体描述
 - 测试步骤：
-    - 1.点击进入测试app
+    - 1.点击进入测试app(app以debug模式运行)
     - 2.显示界面后点击界面白色背景，这时候logcat会显示"11-29 10:28:40.421 11237-11237/a.test.aaa W/a.test.aaa: Accessing hidden method Landroid/util/MathUtils;->dist(FFFF)F (dark greylist, linking)"
     - 3.点击power键灭屏
     - 4.再按power键解锁

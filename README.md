@@ -1,5 +1,5 @@
 ### 问题：
-App本身未小米MIX 2S Android 9.0系统会调用hiddenapi-dark-greylist，导致在debug模式下会弹出detected problems with API的弹窗
+App本身未调用限制API，但小米MIX 2S Android 9.0系统会调用hiddenapi-dark-greylist，导致在debug模式下会弹出detected problems with API的弹窗
 
 ### 具体描述
 - 测试步骤：
